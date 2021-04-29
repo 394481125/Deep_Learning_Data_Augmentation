@@ -68,3 +68,22 @@ pip uninstall imgaug
 
 
 ## 方案二：使用工具opencv增强数据
+
+
+
+
+
+## 参考资料：
+
+[imgaug](https://github.com/aleju/imgaug)
+
+[imgaug-doc](https://github.com/aleju/imgaug-doc)
+
+[imgaug官方使用手册](https://imgaug.readthedocs.io/en/latest/index.html)
+
+[图片数据不够快来试试使用imgaug增强数据](https://xiulian.blog.csdn.net/article/details/105547204)
+
+[imgaug数据增强神器：增强器一览](https://blog.csdn.net/lly1122334/article/details/88944589?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
+
+[数据增广imgaug库的使用](https://www.cnblogs.com/xxmmqg/p/13062556.html)
+
