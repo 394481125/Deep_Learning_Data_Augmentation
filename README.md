@@ -13,7 +13,7 @@
 
 ​		该库使用必须安装的python。支持Python 2.7、3.4、3.5、3.6、3.7和3.8。
 
-2.1、在Anaconda中安装
+#### 2.1、在Anaconda中安装
 
 ```python
 conda config --add channels conda-forge
@@ -26,7 +26,7 @@ conda install imgaug
 pip install imagecorruptions
 ```
 
-2.2、在`pip`中安装
+#### 2.2、在`pip`中安装
 
 ```python
 pip install imgaug
@@ -51,7 +51,7 @@ pip install git+https://github.com/aleju/imgaug.git
 pip install imagecorruptions
 ```
 
-2.3、卸载
+#### 2.3、卸载
 
 在Anaconda中卸载
 
