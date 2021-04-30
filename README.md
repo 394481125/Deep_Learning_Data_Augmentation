@@ -74,18 +74,18 @@ pip uninstall imgaug
 
 #### 2.5、官方ipynb使用方法介绍
 
-- [A01 - Load and Augment an Image](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/A01 - Load and Augment an Image.ipynb)
-- [A03 - Multicore Augmentation](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/A03 - Multicore Augmentation.ipynb)
-- [B01 - Augment Keypoints (aka Landmarks)](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B01 - Augment Keypoints.ipynb)
-- [B02 - Augment Bounding Boxes](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B02 - Augment Bounding Boxes.ipynb)
-- [B03 - Augment Polygons](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B03 - Augment Polygons.ipynb)
-- [B06 - Augment Line Strings](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B06 - Augment Line Strings.ipynb)
-- [B04 - Augment Heatmaps](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B04 - Augment Heatmaps.ipynb)
-- [B05 - Augment Segmentation Maps](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B05 - Augment Segmentation Maps.ipynb)
-- [C01 - Using Probability Distributions as Parameters](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/C01 - Using Probability Distributions as Parameters.ipynb)
-- [C02 - Using imgaug with more Control Flow](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/C02 - Using imgaug with more Control Flow.ipynb)
-- [C03 - Stochastic and Deterministic Augmentation](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/C03 - Stochastic and Deterministic Augmentation.ipynb)
-- [C04 - Copying Random States and Using Multiple Augmentation Sequences](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/C04 - Copying Random States and Using Multiple Augmentation Sequences.ipynb>)
+- [A01 - Load and Augment an Image](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [A03 - Multicore Augmentation](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [B01 - Augment Keypoints (aka Landmarks)](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [B02 - Augment Bounding Boxes](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [B03 - Augment Polygons](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [B06 - Augment Line Strings](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [B04 - Augment Heatmaps](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [B05 - Augment Segmentation Maps](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [C01 - Using Probability Distributions as Parameters](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [C02 - Using imgaug with more Control Flow](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [C03 - Stochastic and Deterministic Augmentation](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
+- [C04 - Copying Random States and Using Multiple Augmentation Sequences](https://github.com/aleju/imgaug-doc/tree/master/notebooks)
 
 ## 方案二：使用工具opencv增强数据
 

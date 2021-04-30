@@ -18,19 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://E:/imgaug-doc-master/notebooks/C03 - Stochastic and Deterministic Augmentation.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://E:/imgaug-doc-master/notebooks/C04 - Copying Random States and Using Multiple Augmentation Sequences.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="1" />
+              <selected id="9" />
             </state>
           </provider>
         </entry>
@@ -147,12 +138,12 @@
       <option name="presentableId" value="Default" />
       <updated>1619683755211</updated>
       <workItem from="1619683756542" duration="11424000" />
-      <workItem from="1619788157574" duration="3089000" />
+      <workItem from="1619788157574" duration="3908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14513000" />
+    <option name="totallyTimeSpent" value="15332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="449" y="111" width="1413" height="827" extended-state="0" />
@@ -286,13 +277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/C04 - Copying Random States and Using Multiple Augmentation Sequences.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/imgaug-doc-master/notebooks/C02 - Using imgaug with more Control Flow.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -304,6 +288,13 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/imgaug-doc-master/notebooks/C04 - Copying Random States and Using Multiple Augmentation Sequences.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="9" />
         </state>
       </provider>
     </entry>
