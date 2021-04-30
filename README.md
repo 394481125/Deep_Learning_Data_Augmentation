@@ -65,9 +65,43 @@ conda remove imgaug
 pip uninstall imgaug
 ```
 
+#### 2.4、使用方法
 
+- [API介绍及参考](https://blog.csdn.net/zong596568821xp/article/details/83105700)
+- [API使用及参考](https://blog.csdn.net/u012897374/article/details/80142744)
+- [官方文档](https://imgaug.readthedocs.io/en/latest/index.html)
+- [我的colab实现地址](https://colab.research.google.com/drive/1rkrfWJuWIkWqCaCGWp43N2DTbt3nZjTe?usp=sharing)
+
+#### 2.5、官方ipynb使用方法介绍
+
+- [A01 - Load and Augment an Image](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/A01 - Load and Augment an Image.ipynb)
+- [A03 - Multicore Augmentation](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/A03 - Multicore Augmentation.ipynb)
+- [B01 - Augment Keypoints (aka Landmarks)](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B01 - Augment Keypoints.ipynb)
+- [B02 - Augment Bounding Boxes](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B02 - Augment Bounding Boxes.ipynb)
+- [B03 - Augment Polygons](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B03 - Augment Polygons.ipynb)
+- [B06 - Augment Line Strings](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B06 - Augment Line Strings.ipynb)
+- [B04 - Augment Heatmaps](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B04 - Augment Heatmaps.ipynb)
+- [B05 - Augment Segmentation Maps](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B05 - Augment Segmentation Maps.ipynb)
+- [C01 - Using Probability Distributions as Parameters](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/C01 - Using Probability Distributions as Parameters.ipynb)
+- [C02 - Using imgaug with more Control Flow](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/C02 - Using imgaug with more Control Flow.ipynb)
+- [C03 - Stochastic and Deterministic Augmentation](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/C03 - Stochastic and Deterministic Augmentation.ipynb)
+- [C04 - Copying Random States and Using Multiple Augmentation Sequences](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/C04 - Copying Random States and Using Multiple Augmentation Sequences.ipynb>)
 
 ## 方案二：使用工具opencv增强数据
+
+
+
+
+
+## 方案三：tensorflow库的ImageDataGenerator增强数据
+
+
+
+
+
+## 方案四：torchvision库的transforms增强数据
+
+
 
 
 
@@ -86,4 +120,8 @@ pip uninstall imgaug
 [imgaug数据增强神器：增强器一览](https://blog.csdn.net/lly1122334/article/details/88944589?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
 
 [数据增广imgaug库的使用](https://www.cnblogs.com/xxmmqg/p/13062556.html)
+
+[深度学习之数据增强库imgaug使用方法](https://blog.csdn.net/zong596568821xp/article/details/83105700)
+
+[imgaug学习笔记](https://blog.csdn.net/u012897374/article/details/80142744)
 
