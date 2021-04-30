@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5593c0d-8b33-441e-bd02-4d5a6aebcfb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_aug_use_imgaug.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +16,8 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://E:/imgaug-doc-master/notebooks/C04 - Copying Random States and Using Multiple Augmentation Sequences.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="9" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/image_aug_use_imgaug.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -44,12 +38,13 @@
         <option value="$PROJECT_DIR$/demo.py" />
         <option value="E:/imgaug-doc-master/notebooks/B02 - Augment Bounding Boxes.ipynb" />
         <option value="E:/imgaug-doc-master/notebooks/B03 - Augment Polygons.ipynb" />
+        <option value="$PROJECT_DIR$/image_aug_use_imgaug.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="449" />
-    <option name="y" value="111" />
+    <option name="x" value="229" />
+    <option name="y" value="106" />
     <option name="width" value="1413" />
     <option name="height" value="827" />
   </component>
@@ -138,18 +133,18 @@
       <option name="presentableId" value="Default" />
       <updated>1619683755211</updated>
       <workItem from="1619683756542" duration="11424000" />
-      <workItem from="1619788157574" duration="3908000" />
+      <workItem from="1619788157574" duration="4441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15332000" />
+    <option name="totallyTimeSpent" value="15865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="449" y="111" width="1413" height="827" extended-state="0" />
+    <frame x="229" y="106" width="1413" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2535107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2535107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,6 +292,9 @@
           <selected id="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_aug_use_imgaug.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
