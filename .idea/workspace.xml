@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5593c0d-8b33-441e-bd02-4d5a6aebcfb7" name="Default Changelist" comment="" />
+    <list default="true" id="d5593c0d-8b33-441e-bd02-4d5a6aebcfb7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,10 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Deep_Learning_Data_Augmentation$opencv_basic_operation.coverage" NAME="opencv_basic_operation Coverage Results" MODIFIED="1620297366617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Deep_Learning_Data_Augmentation$demo.coverage" NAME="demo Coverage Results" MODIFIED="1619685331963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,12 +34,14 @@
         <option value="E:/imgaug-doc-master/notebooks/B02 - Augment Bounding Boxes.ipynb" />
         <option value="E:/imgaug-doc-master/notebooks/B03 - Augment Polygons.ipynb" />
         <option value="$PROJECT_DIR$/image_aug_use_imgaug.py" />
+        <option value="$PROJECT_DIR$/basic_operation.py" />
+        <option value="$PROJECT_DIR$/opencv_basic_operation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="24" />
-    <option name="y" value="118" />
+    <option name="x" value="190" />
+    <option name="y" value="191" />
     <option name="width" value="1413" />
     <option name="height" value="827" />
   </component>
@@ -45,7 +50,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -57,6 +61,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -85,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.opencv_basic_operation">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep_Learning_Data_Augmentation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,8 +113,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="opencv_basic_operation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deep_Learning_Data_Augmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_basic_operation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.opencv_basic_operation" />
         <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
@@ -125,23 +153,25 @@
       <option name="presentableId" value="Default" />
       <updated>1619683755211</updated>
       <workItem from="1619683756542" duration="11424000" />
-      <workItem from="1619788157574" duration="5193000" />
+      <workItem from="1619788157574" duration="5229000" />
+      <workItem from="1620116991230" duration="72000" />
+      <workItem from="1620293752053" duration="1230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16617000" />
+    <option name="totallyTimeSpent" value="17955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="118" width="1413" height="827" extended-state="0" />
+    <frame x="990" y="134" width="1413" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2535107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2609017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2849315" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28427127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,85 +238,40 @@
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/A03 - Multicore Augmentation.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/B01 - Augment Keypoints.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/B02 - Augment Bounding Boxes.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/B03 - Augment Polygons.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/B04 - Augment Heatmaps.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/B05 - Augment Segmentation Maps.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/B06 - Augment Line Strings.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/C01 - Using Probability Distributions as Parameters.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/C02 - Using imgaug with more Control Flow.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/C03 - Stochastic and Deterministic Augmentation.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/imgaug-doc-master/notebooks/C04 - Copying Random States and Using Multiple Augmentation Sequences.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="9" />
-        </state>
-      </provider>
+    <entry file="file://E:/imgaug-doc-master/notebooks/A03 - Multicore Augmentation.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/B01 - Augment Keypoints.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/B02 - Augment Bounding Boxes.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/B03 - Augment Polygons.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/B04 - Augment Heatmaps.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/B05 - Augment Segmentation Maps.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/B06 - Augment Line Strings.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/C01 - Using Probability Distributions as Parameters.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/C02 - Using imgaug with more Control Flow.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/C03 - Stochastic and Deterministic Augmentation.ipynb" />
+    <entry file="file://E:/imgaug-doc-master/notebooks/C04 - Copying Random States and Using Multiple Augmentation Sequences.ipynb" />
+    <entry file="file://$PROJECT_DIR$/basic_operation.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/image_aug_use_imgaug.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv_basic_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="e#30#375#0" />
+            <element signature="e#422#611#0" />
+            <element signature="e#669#1108#0" />
+            <element signature="e#1150#1398#0" />
+            <element signature="e#1432#1994#0" />
+            <element signature="e#2029#2960#0" />
+            <element signature="e#2991#3434#0" />
+            <element signature="e#3466#4455#0" />
+            <element signature="e#4484#5393#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
