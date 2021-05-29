@@ -10,6 +10,13 @@ import random
 import datetime
 import xml.etree.ElementTree as ET
 
+
+import imageio
+import imgaug as ia
+from imgaug.augmentables.bbs import BoundingBox, BoundingBoxesOnImage
+from imgaug import augmenters as iaa
+
+
 """
 YOLO图像增广
 """
@@ -118,7 +125,7 @@ class ImageAugmentation:
 
     def changeImages(self, folder, function_name, image_name, n):
         if function_name == "crop":
-            function = self.__cropImage
+            function = self.__cropImage1
         elif function_name == "tran":
             function = self.__translationImage
         elif function_name == "light":
@@ -202,6 +209,26 @@ class ImageAugmentation:
                                 int(bbox[2] - crop_x_min), int(bbox[3] - crop_y_min), bbox[4]])
 
         return crop_img, crop_bboxes
+
+    # 1 裁切
+    def __cropImage2(self, image, boxes):
+        ia.seed(1)
+        outimage = image
+        outboxes = boxes
+        for i in range(len(boxes)):
+            bbs = BoundingBoxesOnImage([
+                BoundingBox(x1=boxes[i][0], x2=boxes[i][2], y1=boxes[i][1], y2=boxes[i][3])
+            ], shape=image.shape)
+            seq = iaa.Sequential([
+                iaa.Crop(percent=(0, 0.4))  # 剪裁
+            ], random_order=True)
+            image_aug, bbs_aug = seq(image=image, bounding_boxes=bbs)
+            outboxes[i][0] = int(bbs_aug[0].x1)
+            outboxes[i][2] = int(bbs_aug[0].x2)
+            outboxes[i][1] = int(bbs_aug[0].y1)
+            outboxes[i][3] = int(bbs_aug[0].y2)
+            outimage = image_aug
+        return outimage, outboxes
 
     # 2-平移
     def __translationImage(self, img, boxes):
@@ -408,7 +435,7 @@ if __name__ == '__main__':
         if os.path.splitext(filename)[1] == '.jpg':  # 目录下包含.json的文件
             name = str(args.folder) + '/' + os.path.splitext(filename)[0]
             demo.changeImages(str(args.folder), "crop", name, 5)
-            demo.changeImages(str(args.folder), "tran", name, 5)
-            demo.changeImages(str(args.folder), "light", name, 5)
-            demo.changeImages(str(args.folder), "noise", name, 5)
-            demo.changeImages(str(args.folder), "rotate", name, 5)
+            # demo.changeImages(str(args.folder), "tran", name, 5)
+            # demo.changeImages(str(args.folder), "light", name, 5)
+            # demo.changeImages(str(args.folder), "noise", name, 5)
+            # demo.changeImages(str(args.folder), "rotate", name, 5)
